@@ -4,6 +4,9 @@ module.exports = {
     content: [],
     theme: {
         extend: {},
+        fontFamily: {
+            'cursive': ['La Belle Aurore', 'cursive'],
+        }
     },
     plugins: [],
 }
