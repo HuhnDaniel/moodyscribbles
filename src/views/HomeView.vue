@@ -15,7 +15,7 @@ import 'swiper/css/pagination'
 
 <template>
     <main>
-        <div class="w-2/3 mx-auto my-8">
+        <div class="w-full md:w-2/3 mx-auto my-8">
             <Swiper :pagination="true" :modules="[Pagination]">
                 <SwiperSlide v-for="image in images">
                     <img  class="w-full h-full" :src="`${image}`" />
