@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div class="mx-auto md:w-1/2 flex py-16">
+    <div class="mx-auto md:w-1/4 flex py-8">
         <div class="flex-auto">
             <button class="w-8 block mx-auto">
                 <img src="../assets/Instagram_Glyph_Gradient.jpg" />

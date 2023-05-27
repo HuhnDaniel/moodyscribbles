@@ -15,7 +15,7 @@ import PageFooter from './components/PageFooter.vue'
 
     <RouterView />
 
-    <footer>
+    <footer class="fixed bottom-0 w-full">
         <PageFooter />
     </footer>
 </template>
