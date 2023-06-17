@@ -2,7 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 
 import Banner from './components/Banner.vue'
-import HomeView from './views/HomeView.vue'
+// import HomeView from './views/HomeView.vue'
 import PageFooter from './components/PageFooter.vue'
 </script>
 
@@ -11,7 +11,8 @@ import PageFooter from './components/PageFooter.vue'
         <Banner />
     </header>
 
-    <HomeView />
+    <!-- <HomeView /> -->
+    <!-- <RouterLink to="/">Home</RouterLink> -->
 
     <RouterView />
 
