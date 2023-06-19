@@ -3,27 +3,19 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-    <section class="flex flex-col mb-16 w-1/2 mx-auto">
+    <section class="flex flex-col my-16 w-1/2 mx-auto">
         <article class="flex pb-4">
-            <!-- <button class="flex-auto">
-                <span class="px-2 md:px-4 py-1 md:py-2 bg-blue-300 rounded">Portfolio</span>
-            </button> -->
-            <RouterLink to="/portfolio">Portfolio</RouterLink>
-            <button class="flex-auto">
-                <span class="px-2 md:px-4 py-1 md:py-2 bg-blue-300 rounded">Contact</span>
-            </button>
-            <button class="flex-auto">
-                <span class="px-2 md:px-4 py-1 md:py-2 bg-blue-300 rounded">Other</span>
-            </button>
+            <div class="flex-auto text-center">
+                <RouterLink to="/portfolio" class="bg-blue-300 rounded px-2 md:px-4 py-1 md:py-2">
+                    <span class="mb-2">Portfolio</span>
+                </RouterLink>
+            </div>
+            <div class="flex-auto text-center">
+                <RouterLink to="/contact" class="px-2 md:px-4 py-1 md:py-2 bg-blue-300 rounded">Contact</RouterLink>
+            </div>
+            <div class="flex-auto text-center">
+                <RouterLink to="/other" class="px-2 md:px-4 py-1 md:py-2 bg-blue-300 rounded">Other</RouterLink>
+            </div>
         </article>
-
-        <!-- <article class="flex pt-16">
-            <button class="flex-auto">
-                <span class="px-2 md:px-4 py-1 md:py-2 bg-blue-300 rounded">Instagram</span>
-            </button>
-            <button class="flex-auto">
-                <span class="px-2 md:px-4 py-1 md:py-2 bg-blue-300 rounded">TikTok</span>
-            </button>
-        </article> -->
     </section>
 </template>
